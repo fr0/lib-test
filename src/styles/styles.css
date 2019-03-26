@@ -1,0 +1,15 @@
+/* You can add global styles to this file, and also import other style files */
+ol, ul {
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+  -webkit-margin-start: 0;
+  -webkit-margin-end: 0;
+}
+
+ol {
+  -webkit-padding-start: 20px;
+}
+
+ul {
+  -webkit-padding-start: 0;
+}

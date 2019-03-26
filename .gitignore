@@ -1,0 +1,26 @@
+# WebStorm
+.idea
+
+# compiled output
+/dist
+/docs
+/tmp
+/out-tsc
+
+# dependencies
+/node_modules
+
+# misc
+npm-debug.log
+yarn-error.log
+
+# e2e
+/e2e/*.js
+/e2e/*.map
+/e2e/server-url
+!/e2e/*.conf.js
+.finished
+
+# System Files
+.DS_Store
+Thumbs.db
