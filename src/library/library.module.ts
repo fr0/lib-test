@@ -1,11 +1,12 @@
 import {NgModule, Type} from '@angular/core';
 import {CommonModule} from '@angular/common';
 import { FormsModule } from '@angular/forms';
-import {HttpClientModule} from '@angular/common/http';
-import {ExpandableIfComponent} from './expandable-if.component';
+import {ToolbarButtonComponent, ToolbarComponent, ToolbarSeparatorComponent} from './toolbar.component';
 
 export const UI_COMPONENTS: Type<any>[] = [
-  ExpandableIfComponent
+  ToolbarButtonComponent,
+  ToolbarComponent,
+  ToolbarSeparatorComponent
 ];
 
 /**
@@ -15,8 +16,7 @@ export const UI_COMPONENTS: Type<any>[] = [
   declarations: UI_COMPONENTS,
   imports: [
     CommonModule,
-    FormsModule,
-    HttpClientModule
+    FormsModule
   ],
   exports: UI_COMPONENTS
 })
